@@ -1,11 +1,8 @@
-Basic ReactNavigation Example App and Tutorial
+Basic ReactNavigation Example App and Tutorial for HDDF Task
 
 This is a simple 3-page application that demonstrates the basic usage of React Navigation as a navigation tool. It is extremely easy to understand. This step-by-step tutorial will take you through the basic concepts. We are using NativeBase as the UI library to design our pages.
 
-Find full code here
 
-
-![ReactNavigation Gif](https://github.com/GeekyAnts/native-base-docs/raw/master/docs/assets/StackNavigation.gif)
 Aim
 
 We are creating a 3-page application with buttons on each page that takes us to the other page onPress. 
