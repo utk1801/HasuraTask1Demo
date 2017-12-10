@@ -1,26 +1,68 @@
-Basic ReactNavigation Example App and Tutorial for HDDF Task
-
-This is a simple 3-page application that demonstrates the basic usage of React Navigation as a navigation tool. It is extremely easy to understand. This step-by-step tutorial will take you through the basic concepts. We are using NativeBase as the UI library to design our pages.
 
 
-Aim
+# Project Title
 
-We are creating a 3-page application with buttons on each page that takes us to the other page onPress. 
+Demo App for Hasura Product Development Fellowship Task1, bootstrapped with Create React Native App..
 
-Installation
+## Getting Started
 
-Create React Native App: Use CRNA tool to create an App like this 
-$ npm install -g create-react-native-app
-$ create-react-native-app my-app
-$ cd my-app/
-$ npm start
-Installing Libraries 
-With a React Native project SetUp, We can now install all required Libraries as follows. 
-a. React Navigation 
-npm install --save react-navigation
-b. NativeBase 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
-npm install native-base --save
-c. Configure dependencies 
 
-react-native link
+### Prerequisites
+
+```
+Node.JS
+Expo Client
+TextEditor like SublimeText,Atom,etc.
+Terminal in Mac or GitBash for Windows.
+```
+## Dependencies
+
+ * React Native
+ * React Navigation
+ * NativeBase
+ * Expo
+
+
+# Need Expo?
+
+With Expo you can build, share and enjoy many mobile experiences. Download the app to try it today.
+For links to install the Expo app, please visit https://expo.io.
+
+## Getting Started 
+
+**1. Clone the Repo**
+On the command prompt/shell run the following commands
+
+>$ git clone https://github.com/utk1801/HasuraTask1Demo.git
+
+>$ cd HasuraTask1Demo
+
+>$ npm install
+
+**2. To start the demo on expo app**
+
+Run the following command
+
+>$ npm start
+
+**To run on iOS simulator/device**
+
+Run the following command
+
+>$ npm run ios
+
+**To run on android emulator/device**
+
+Run the following command
+
+>$ npm run android
+
+
+
+## Acknowledgments
+
+* Hat tip to anyone who's code was used
+* Inspiration
+* etc

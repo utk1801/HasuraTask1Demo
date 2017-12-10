@@ -8,7 +8,11 @@ import {
   Item,
   Input,
   Content,
-  Text
+  Text,
+  Left,
+  Right,
+  Body,
+  Title
 } from "native-base";
 
 import styles from "./styles";
@@ -19,28 +23,30 @@ class NHSearchbar extends Component {
   render() {
     return (
       <Container style={styles.container}>
-        <Header searchBar rounded>
-          <Item>
+        <Header >
+         <Left>
+            <Button
+              transparent
+              onPress={() => this.props.navigation.navigate("DrawerOpen")}>
+              <Icon name="menu" />
+            </Button>
+          </Left>
+          <Body>
+            <Title>Search</Title>
+          </Body>
+          <Right />
+        </Header>
+          <Item searchBar rounded> 
             <Icon active name="search" />
             <Input placeholder="Search" />
             <Icon active name="people" />
           </Item>
-          <Button transparent>
-            <Text>Search</Text>
-          </Button>
-        </Header>
-
-        <Content padder>
-          <Button
-            block
-            onPress={() => this.props.navigation.navigate("DrawerOpen")}
-          >
-            <Text>Back</Text>
-          </Button>
-        </Content>
+          
+       
       </Container>
     );
   }
 }
+
 
 export default NHSearchbar;
