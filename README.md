@@ -59,7 +59,8 @@ Run the following command
 
 >$ npm run android
 
-
+## Testing Live using Expo:
+Follow this link https://expo.io/@utk1801/my-app and scan the QR on the right.Also attached as ExpoQR.png in the same repo.
 
 ## Acknowledgments
 
